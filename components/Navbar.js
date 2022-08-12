@@ -27,10 +27,10 @@ const Navbar = () => {
                             <h1 className='md:hidden block m-10 text-xl w-full'>Menu</h1>
                             <AiOutlineClose className='md:hidden block m-7 text-5xl cursor-pointer' onClick={handleClose} />
                         </div>
-                        <li className='md:m-5 m-10 text-xl font-Ubuntu text-pink-600'><a href="/">About</a></li>
-                        <li className='md:m-5 m-10 text-xl font-Ubuntu text-pink-600'><a href="/">Templates</a></li>
-                        <li className='md:m-5 m-10 text-xl font-Ubuntu text-pink-600'><a href="/">Contact</a></li>
-                        <li className='md:m-5 m-10 text-xl font-Ubuntu text-pink-600'><a href="/">Services</a></li>
+                        <li className='md:m-5 m-10 text-xl font-Ubuntu text-pink-600'><a >About</a></li>
+                        <li className='md:m-5 m-10 text-xl font-Ubuntu text-pink-600'><a >Templates</a></li>
+                        <li className='md:m-5 m-10 text-xl font-Ubuntu text-pink-600'><a >Contact</a></li>
+                        <li className='md:m-5 m-10 text-xl font-Ubuntu text-pink-600'><a >Services</a></li>
                     </ul>
                     <div className="login mr-10 md:block hidden">
                         <button className='text-xl bg-pink-600 px-4 py-1 text-white rounded-md'>Login</button>
